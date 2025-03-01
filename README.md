@@ -29,12 +29,7 @@ HUBSPOT_API_KEY = pat-your-key-here
 SENDGRID_API_KEY = SG.your-key-here
 ```
 
-### 4. Run Agent
-```bash
-python main.py
-```
-When prompted, enter requests like:  
-"Create lead for ali@example.com at Tech Corp"
+
 
 ## 📂 File Structure
 ```
@@ -71,6 +66,7 @@ Edit `config.json` for API endpoints:
 | Email Agent    | Send notifications              | SendGrid       |
 
 ## 📦 Create Conda Enviornment
+Conda environment is recommended for package management.
 ```bash
 conda create --name agent-env python=3.11
 conda activate agent-env
@@ -83,10 +79,16 @@ source agent-env/bin/activate
 ```
 
 ## 🛠️ Configuration
-Common fixes:
 1. API Errors: Verify keys in `.env`
 2. Module Issues: `pip install -r requirements.txt`
 3. HubSpot: Ensure developer account is activated
+
+## 🚀 Run
+```bash
+python main.py
+```
+When prompted, enter requests like:  
+"Create lead for ali@example.com at Tech Corp"
 
 ## 📜 License
 MIT License - See [LICENSE](LICENSE) for details
