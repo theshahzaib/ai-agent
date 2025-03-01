@@ -33,7 +33,7 @@ SENDGRID_API_KEY = SG.your-key-here
 
 ## 📂 File Structure
 ```
-project/
+ai-agent/
 ├── README.md            # Project overview
 ├── agents/              # Agent implementations
 │   ├── orchestrator.py  # Task delegation
