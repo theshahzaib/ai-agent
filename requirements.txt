@@ -1,0 +1,5 @@
+openai==0.28
+langchain>=0.0.346
+requests>=2.31.0
+python-dotenv>=1.0.0
+pydantic>=2.0

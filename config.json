@@ -1,0 +1,16 @@
+{
+    "openai": {
+        "model": "gpt-3.5-turbo",
+        "api_key_env": "OPENAI_API_KEY"
+    },
+    "hubspot": {
+        "api_base": "https://api.hubapi.com",
+        "create_lead_endpoint": "/crm/v3/objects/contacts",
+        "api_key_env": "HUBSPOT_API_KEY"
+    },
+    "sendgrid": {
+        "api_base": "https://api.sendgrid.com/v3/",
+        "send_email_endpoint": "mail/send",
+        "api_key_env": "SENDGRID_API_KEY"
+    }
+}
